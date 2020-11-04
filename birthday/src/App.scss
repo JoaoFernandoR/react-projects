@@ -1,0 +1,66 @@
+#app {
+    background-image: linear-gradient(to right, #fe7c78, #e23e3e);
+    width: 100vw;
+    height: 100vh;
+    padding: 0.9rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        width: 600px;
+        margin: auto;
+        background-color: #EFEFEF;
+        padding: 2rem 1.5rem;
+        border-radius: 10px;
+        box-shadow: 5px 3px 4px 0px rgba(0,0,0,0.54);
+
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .image_container {
+            display: flex;
+            margin-bottom: 10px;
+            margin-top: 15px;
+
+            img {
+                width: 90px;
+                height: 90px;
+                border-radius: 80px;
+                object-fit: cover;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 15px;
+
+                h3 {
+                    font-weight: 500;
+                }
+
+                p {
+                    margin-top: 10px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .mybutton {
+            width: 100%;
+            color: white;
+            margin: auto;
+            background-image: linear-gradient(to right, #fe7c78, #e23e3e);
+            padding: 0.8rem 1rem;
+            font-size: 1.2rem;
+            border-radius: 20px;
+        }
+    }
+}
